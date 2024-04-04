@@ -10,10 +10,6 @@ h1 {
     font-size: 110%;
 }
 
-header {
-    background-color: rgb(194, 232, 247);
-}
-
 header a {
     text-decoration: none;
     color: black;

@@ -1,0 +1,17 @@
+h1 {
+    font-size: 100%;
+    justify-content: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+}

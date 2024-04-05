@@ -33,6 +33,16 @@ header p {
     background: url("../images/pexels-nathan-cowley-1192671.jpg") no-repeat center center/cover;
     width: 100%;
     height: 100px;
+    position: relative;
+}
+
+#text-over-img {
+    position: absolute;
+    background-color: rgb(243, 218, 187, 0.7);
+    font-size: 110%;
+    width: 40%;
+    margin-left: 10px;
+    text-align: center;
 }
 
 #boxes {
@@ -59,5 +69,9 @@ div > h2 {
 
     #boxes {
         width: 33%;
+    }
+
+    #text-over-img {
+        font-size: 150%;
     }
 }

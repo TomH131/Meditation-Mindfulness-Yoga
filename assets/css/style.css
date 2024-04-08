@@ -52,6 +52,10 @@ header p {
     padding: 10px;
 }
 
+#boxes p {
+    margin-bottom: 0px;
+}
+
 div > h2 {
     margin: 0;
 }
@@ -60,6 +64,10 @@ div > h2 {
     margin: 15px;
     background-color: rgb(224, 197, 109);
     padding: 10px;
+}
+
+#about-us-text p {
+    margin-bottom: 0px;
 }
 
 #grass-img {

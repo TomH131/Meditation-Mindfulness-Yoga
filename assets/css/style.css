@@ -45,6 +45,12 @@ header p {
     text-align: center;
 }
 
+#about-us {
+    margin: 15px;
+    background-color: rgb(224, 197, 109);
+    padding: 10px;
+}
+
 #boxes {
     margin: 15px;
     background-color: rgb(224, 197, 109);

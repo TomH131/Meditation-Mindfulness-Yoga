@@ -9,6 +9,8 @@ body {
 
 h1 {
     font-size: 120%;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 header a {
@@ -27,6 +29,7 @@ header p {
     justify-content: space-evenly;
     width: 100%;
     padding: 0;
+    margin: 5px;
 }
 
 #beach {
@@ -61,7 +64,7 @@ div>h2 {
 
 #about-us-text {
     margin: 15px;
-    background-color: rgb(224, 197, 109);
+    background-color: rgb(216, 219, 219);
     padding: 10px;
 }
 
@@ -94,7 +97,7 @@ div>h2 {
 }
 
 #yoga-img {
-    background: url("../images/pexels-max-nikhil-thimmayya-802417.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-jonathan-borba-3076509.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
@@ -149,4 +152,16 @@ div>h2 {
         margin: 15px;
     }
 
+}
+
+/* Media query for large laptop screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+    #yoga {
+        height: 330px;
+        font-size: 160%;
+    }
+
+    #yoga-img {
+        height: 300px;
+    }
 }

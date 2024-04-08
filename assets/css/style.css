@@ -102,6 +102,19 @@ div>h2 {
     height: 200px;
 }
 
+#signup {
+    margin: 15px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+#signup-button {
+    background-color: rgb(224, 197, 109);
+    border: solid 1px;
+}
+
 #social-media {
     list-style: none;
     display: flex;

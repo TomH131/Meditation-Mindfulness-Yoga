@@ -48,7 +48,6 @@ header p {
 #boxes {
     margin: 15px;
     background-color: rgb(224, 197, 109);
-    text-align: center;
     padding: 10px;
 }
 
@@ -56,7 +55,7 @@ header p {
     margin-bottom: 0px;
 }
 
-div > h2 {
+div>h2 {
     margin: 0;
 }
 
@@ -72,6 +71,22 @@ div > h2 {
 
 #grass-img {
     background: url("../images/pexels-pok-rie-130879.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 200px;
+}
+
+#meditation-box {
+    margin: 15px;
+    background-color: rgb(224, 197, 109);
+    padding: 10px;
+}
+
+#meditation-box p {
+    margin-bottom: 0px;
+}
+
+#meditating-img {
+    background: url("../images/pexels-prasanth-inturi-1051838.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
@@ -94,7 +109,7 @@ div > h2 {
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     #beach {
-        height: 300px;
+        height: 33%;
     }
 
     #intro-boxes {
@@ -116,6 +131,17 @@ div > h2 {
 
     #about-us-text,
     #grass-img {
+        width: 50%;
+        margin: 15px;
+    }
+
+    #meditating {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #meditation-box,
+    #meditating-img {
         width: 50%;
         margin: 15px;
     }

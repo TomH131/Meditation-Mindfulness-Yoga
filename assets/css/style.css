@@ -107,7 +107,8 @@ div>h2 {
 
 /* Signup for the newsletter */
 #signup {
-    margin: 15px;
+    margin: auto;
+    width: 300px;
 }
 
 input {
@@ -170,7 +171,6 @@ input {
         margin: 15px;
     }
 
-}
 
 /* Media query for large laptop screens (1440px and up) */
 @media screen and (min-width: 1440px) {

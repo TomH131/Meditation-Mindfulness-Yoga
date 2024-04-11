@@ -181,7 +181,7 @@ input {
         width: 50%;
         margin: 15px;
     }
-
+}
 
 /* Media query for large laptop screens (1440px and up) */
 @media screen and (min-width: 1440px) {

@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+/* Header */
 h1 {
     font-size: 120%;
     padding-left: 5px;
@@ -44,10 +45,11 @@ header p {
     background-color: rgb(243, 218, 187, 0.7);
     font-size: 110%;
     width: 40%;
-    margin-left: 10px;
+    margin: 10px;
     text-align: center;
 }
 
+/* Homepage content */
 #boxes {
     margin: 15px;
     background-color: rgb(224, 197, 109);
@@ -72,6 +74,7 @@ div>h2 {
     margin-bottom: 0px;
 }
 
+/* Main content for the other three pages */
 #grass-img {
     background: url("../images/pexels-pok-rie-130879.jpg") no-repeat center center/cover;
     width: 100%;
@@ -102,6 +105,7 @@ div>h2 {
     height: 200px;
 }
 
+/* Signup for the newsletter */
 #signup {
     margin: 15px;
 }
@@ -115,6 +119,7 @@ input {
     border: solid 1px;
 }
 
+/* Footer */
 #social-media {
     list-style: none;
     display: flex;

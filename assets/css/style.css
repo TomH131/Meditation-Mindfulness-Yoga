@@ -195,6 +195,14 @@ input {
         margin: 15px;
     }
 
+    #meditating,
+    #mindfulness,
+    #yoga {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
     #mindfulness-img {
         background: url("../images/pexels-stephan-seeber-1261728.jpg") no-repeat right center/cover;
     }

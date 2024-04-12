@@ -125,6 +125,7 @@ div>h2 {
     width: 100%;
     height: 300px;
 }
+
 form {
     margin: 15px;
     background-color: rgb(243, 218, 187, 0.7);
@@ -219,9 +220,5 @@ input {
     #mindfulness-box,
     #yoga-box {
         height: 200px;
-    }
-
-    form {
-
     }
 }

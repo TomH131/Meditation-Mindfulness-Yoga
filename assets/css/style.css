@@ -105,6 +105,7 @@ div>h2 {
 }
 
 #meditation-box p,
+#meditation-next p,
 #mindfulness-box p,
 #yoga-box p {
     margin-bottom: 0px;
@@ -117,7 +118,6 @@ div>h2 {
 }
 
 #med-techniques {
-    background: url("../images/pexels-ruslan-alekso-1525852.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
@@ -195,6 +195,7 @@ input {
 
     #intro-boxes,
     #meditating,
+    #meditating-two,
     #mindfulness,
     #yoga {
         display: flex;
@@ -217,6 +218,8 @@ input {
     #beach-img,
     #meditation-box,
     #med-techniques,
+    #meditation-next,
+    #meditating-img,
     #mindfulness-box,
     #mindfulness-img,
     #yoga-box,
@@ -226,9 +229,9 @@ input {
     }
 
     #meditating,
+    #meditating-two,
     #mindfulness,
     #yoga {
-        margin: auto;
         justify-content: center;
         align-items: center;
     }
@@ -238,13 +241,14 @@ input {
     }
 
     #meditation-box,
+    #meditation-next,
     #mindfulness-box,
     #yoga-box {
         height: 200px;
     }
 
     #meditating-two {
-        display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 

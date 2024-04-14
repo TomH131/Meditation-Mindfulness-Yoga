@@ -96,7 +96,6 @@ div>h2 {
 }
 
 #meditation-box,
-#meditation-next,
 #mindfulness-box,
 #yoga-box {
     margin: 15px;
@@ -105,20 +104,22 @@ div>h2 {
 }
 
 #meditation-box p,
-#meditation-next p,
 #mindfulness-box p,
 #yoga-box p {
     margin-bottom: 0px;
 }
 
 #meditation-box ul,
-#mindfulness-box ul {
+#mindfulness-box ul,
+#yoga-box ul {
     margin-bottom: 0px;
     margin-top: 5px;    
     padding-left: 25px;
 }
 
-#meditation-video {
+#meditation-video,
+#mindfulness-video,
+#yoga-video {
     width: 100%;
     height: 200px;
 }
@@ -127,11 +128,6 @@ div>h2 {
     background: url("../images/pexels-prasanth-inturi-1051838.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
-}
-
-#mindfulness-video {
-    width: 100%;
-    height: 200px;   
 }
 
 #mindfulness-img {
@@ -191,6 +187,7 @@ input {
 #social-media i {
     color: black;
     padding: 10px;
+    font-size: 150%;
 }
 
 /* Media query for tablets and larger (768px and up) */
@@ -204,7 +201,8 @@ input {
     #meditating-two,
     #mindfulness,
     #mindfulness-two,
-    #yoga {
+    #yoga,
+    #yoga-two {
         display: flex;
         justify-content: space-between;
     }
@@ -230,6 +228,7 @@ input {
     #mindfulness-video,
     #mindfulness-img,
     #yoga-box,
+    #yoga-video,
     #yoga-img {
         width: 50%;
         margin: 15px;
@@ -239,7 +238,8 @@ input {
     #meditating-two,
     #mindfulness,
     #mindfulness-two,
-    #yoga {
+    #yoga,
+    #yoga-two {
         justify-content: center;
         align-items: center;
     }
@@ -251,7 +251,7 @@ input {
     #meditation-box,
     #mindfulness-box,
     #yoga-box {
-        height: 200px;
+        height: 210px;
     }
 
     #signup {

@@ -42,7 +42,7 @@ header p {
 }
 
 #beach {
-    background: url("../images/pexels-nathan-cowley-1192671.jpg") no-repeat center center/cover;
+    background: url("../images/hero-beach.jpg") no-repeat center center/cover;
     width: 100%;
     height: 150px;
     position: relative;
@@ -90,7 +90,7 @@ div>h2 {
 
 /* Main content for the other three pages */
 #beach-img {
-    background: url("../images/pexels-pok-rie-130879.jpg") no-repeat center center/cover;
+    background: url("../images/sunset-beach.jpg") no-repeat center center/cover;
     width: 100%;
     height: 180px;
 }
@@ -125,26 +125,26 @@ div>h2 {
 }
 
 #meditating-img {
-    background: url("../images/pexels-prasanth-inturi-1051838.jpg") no-repeat center center/cover;
+    background: url("../images/meditating.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
 
 #mindfulness-img {
-    background: url("../images/pexels-stephan-seeber-1261728.jpg") no-repeat center center/cover;
+    background: url("../images/mindfulness.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
 
 #yoga-img {
-    background: url("../images/pexels-jonathan-borba-3076509.jpg") no-repeat center center/cover;
+    background: url("../images/yoga.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
 
 /* Signup for the newsletter */
 #signup {
-    background: url("../images/pexels-sebastian-arie-voortman-189349.jpg") no-repeat center center/cover;
+    background: url("../images/signup-img.jpg") no-repeat center center/cover;
     width: 100%;
     height: 300px;
 }

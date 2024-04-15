@@ -28,9 +28,10 @@ header a {
     text-decoration: none;
 }
 
-header p {
+header h2 {
     text-align: center;
     font-size: 120%;
+    padding-bottom: 5px;
 }
 
 #navbar {
@@ -59,13 +60,13 @@ header p {
 }
 
 /* Homepage content */
-#boxes {
+.boxes {
     margin: 15px;
     background-color: rgb(224, 197, 109);
     padding: 10px;
 }
 
-#boxes p {
+.boxes p {
     margin-bottom: 0px;
 }
 
@@ -96,25 +97,25 @@ div>h2 {
     height: 180px;
 }
 
-#meditation-box,
-#mindfulness-box,
-#yoga-box {
+.meditation-box,
+.mindfulness-box,
+.yoga-box {
     margin: 15px;
     background-color: rgb(224, 197, 109);
     padding: 10px;
 }
 
-#meditation-box p,
-#mindfulness-box p,
-#yoga-box p {
+.meditation-box p,
+.mindfulness-box p,
+.yoga-box p {
     margin-bottom: 0px;
 }
 
-#meditation-box ul,
-#mindfulness-box ul,
-#yoga-box ul {
+.meditation-box ul,
+.mindfulness-box ul,
+.yoga-box ul {
     margin-bottom: 0px;
-    margin-top: 5px;    
+    margin-top: 5px;
     padding-left: 25px;
 }
 
@@ -173,6 +174,7 @@ input {
     font-family: 'Averia Gruesa Libre', sans-serif;
     color: rgb(224, 197, 109);
     margin-top: 10px;
+    padding-bottom: 4px;
 }
 
 /* Footer */
@@ -209,7 +211,7 @@ input {
         justify-content: space-between;
     }
 
-    #boxes {
+    .boxes {
         width: 33%;
     }
 
@@ -223,13 +225,13 @@ input {
 
     #about-us-text,
     #beach-img,
-    #meditation-box,
+    .meditation-box,
     #meditation-video,
     #meditating-img,
-    #mindfulness-box,
+    .mindfulness-box,
     #mindfulness-video,
     #mindfulness-img,
-    #yoga-box,
+    .yoga-box,
     #yoga-video,
     #yoga-img {
         width: 50%;
@@ -250,9 +252,9 @@ input {
         background: url("../images/mindfulness.jpg") no-repeat right center/cover;
     }
 
-    #meditation-box,
-    #mindfulness-box,
-    #yoga-box {
+    .meditation-box,
+    .mindfulness-box,
+    .yoga-box {
         height: 210px;
     }
 

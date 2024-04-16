@@ -28,6 +28,10 @@ header a {
     text-decoration: none;
 }
 
+header a:hover {
+    text-decoration: underline;
+}
+
 header h2 {
     text-align: center;
     font-size: 120%;
@@ -165,7 +169,6 @@ form {
 
 input {
     margin-bottom: 5px;
-    width: 150px;
 }
 
 #signup-button {

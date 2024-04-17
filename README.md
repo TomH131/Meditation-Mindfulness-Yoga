@@ -1,5 +1,5 @@
 # Body & Mind
-Body & Mind is a website designed to help people learn more about meditation, mindfulness and yoga. It is for people who are interested in learning techniques to help them relax. It is also for those who would like to get into one of the three areas.
+Body & Mind is a website designed to help people learn more about meditation, mindfulness and yoga. It is for people who are interested in learning techniques to help them relax. It is also for those who would like to start practising one of the three areas. This website is targeted to people of all ages.
 
 Through Body & Mind people will  be able to decide whether they would like to find out more and by using the website they will be able to find some links to more information alongside an introductory video and a helpful guide on how to get started.
 

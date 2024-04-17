@@ -270,8 +270,36 @@ input {
     }
 }
 
+/* Media query for large laptops (1440px and up) */
+@media screen and (min-width: 1440px) {
+    header,
+    main,
+    footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #intro-boxes,
+    #about-us,
+    #meditating,
+    #meditating-two,
+    #mindfulness,
+    #mindfulness-two,
+    #yoga,
+    #yoga-two {
+        font-size: 110%;
+    }
+}
+
 /* Media query for large screens (2560px and up) */
 @media screen and (min-width: 2560px) {
+    header,
+    main,
+    footer {
+        width: 50%;
+        margin: 0 auto;
+    }
+
     #intro-boxes,
     #about-us,
     #meditating,

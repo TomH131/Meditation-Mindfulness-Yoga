@@ -17,7 +17,7 @@ a {
 
 /* Header */
 h1 {
-    font-size: 150%;
+    font-size: 180%;
     padding-left: 5px;
     padding-top: 5px;
     margin-bottom: 5px;
@@ -45,6 +45,7 @@ header h2 {
     width: 100%;
     padding: 0;
     margin: 5px;
+    font-size: 110%;
 }
 
 #hero-beach {
@@ -203,6 +204,10 @@ input {
 
 /* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    #navbar a {
+        font-size: 130%;
+    }
+
     #beach {
         height: 33%;
     }

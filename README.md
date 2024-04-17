@@ -65,7 +65,7 @@ The fonts in different sections have been purposefully sized so it is easy for t
 
 I also researched what colours are considered to be calming and found that pastel colours and beige would acheive the desired effect. I decided to make the background colour beige to bring about the calming effect and make the text boxes a darker colour so they would stand out but also not detract from the overall effect. 
 
-Once I had the colour scheme I then purposefully found images on Pexels which related to the content as well as fitted in with the colours I had chosen and again I'm pleased with the outcome.
+Once I had the colour scheme I then purposefully found images on Pexels (https://www.pexels.com/) which related to the content as well as fitted in with the colours I had chosen and again I'm pleased with the outcome.
 
 ## Testing
 
@@ -79,9 +79,7 @@ No errors were found.
 
 ### HTML
 
- - For the text over the landing page image I used a 'p' rather than a header which was picked up and has subsequently been fixed. 
- - In one of the text boxes I closed the 'p' after a 'ul' which was also highlighted but I've since corrected my mistake. 
- - Finally I used the same 'id' across multiple boxes so as to retain the colours and format but have since changed them to 'class'.
+No errors were found.
 
 ### Accessibility 
 

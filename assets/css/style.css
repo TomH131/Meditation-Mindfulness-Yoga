@@ -269,3 +269,17 @@ input {
         margin-top: 10px;
     }
 }
+
+/* Media query for tablets and larger (768px and up) */
+@media screen and (min-width: 2560px) {
+    #intro-boxes,
+    #about-us,
+    #meditating,
+    #meditating-two,
+    #mindfulness,
+    #mindfulness-two,
+    #yoga,
+    #yoga-two {
+        font-size: 130%;
+    }
+}

@@ -270,7 +270,7 @@ input {
     }
 }
 
-/* Media query for tablets and larger (768px and up) */
+/* Media query for large screens (2560px and up) */
 @media screen and (min-width: 2560px) {
     #intro-boxes,
     #about-us,
